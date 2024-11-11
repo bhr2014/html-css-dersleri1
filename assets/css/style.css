@@ -48,3 +48,32 @@ header{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /* 1 rem=16px */
+main{
+    width: 100%;
+    height: 80vh;
+}
+
+main .main-slider{
+    width: 100%;
+    height:80vh;
+}
+
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    user-select: none;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
