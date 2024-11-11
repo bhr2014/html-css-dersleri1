@@ -50,14 +50,87 @@ header{
 /* 1 rem=16px */
 main{
     width: 100%;
-    height: 80vh;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 main .main-slider{
     width: 100%;
     height:80vh;
+  
 }
 
+/* ABOUT (HAKKIMIZDA ALANI) */
+main .main-about{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+main .main-about .main-about-header{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main .main-about .main-about-header h1{
+    font-size: 2.5rem;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: 400;
+}
+
+
+main .main-about .main-about-body{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.4rem solid purple;
+    padding: 10px;
+    border-top-left-radius: 5rem  ;
+    border-bottom-right-radius: 5rem ;
+    font-family: "Sour Gummy", sans-serif;
+
+}
+main .main-about .main-about-body p{
+  line-height: -50px;  
+}
+
+main .main-about .main-about-footer {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main .main-about .main-about-footer .main-about-btn{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: purple;
+    color: white;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 5px solid rgba(255, 255, 255, 0.414);
+    border-top-left-radius: 3rem  ;
+    border-bottom-right-radius: 3rem ;
+
+}
+/* ABOUT (HAKKIMIZDA ALANI) */
 
 
 
